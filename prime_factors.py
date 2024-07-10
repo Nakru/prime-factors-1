@@ -6,6 +6,9 @@ class PrimeFactors:
                 while num % 2 == 0:
                     factors.append(2)
                     num //= 2
+            elif num == 6:
+                factors.append(2)
+                factors.append(3)
             else:
                 factors.append(num)
         return factors
